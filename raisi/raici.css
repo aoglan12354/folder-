@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(black,white);
+    height: 1000px;
+}
+li ,a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.aw{
+    display: flex;
+    justify-content: center;
+     background: linear-gradient(rgb(135, 170, 245), rgb(28, 50, 56));
+ 
+ 
+    }
+
+a:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 70px;
+}
+
+.an{
+  
+    width: 80px;
+    height: 80px;
+    position: absolute;
+
+    bottom: 0;
+    animation-name: aoglan;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes aoglan{
+   
+    0%{
+        translate: 0 0;
+        rotate: 360;
+    }
+50%{
+    translate:400px 0 ;
+    
+}
+100%{
+     rotate: 360deg;
+}
+}
+.aq {
+    height: 100vh;
+    border: 1px black solid;
+   background-image:url();
+}
+ .chop {
+    border-radius: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px black solid;
+    background-image: url(https://cdn.salla.sa/ngdDr/X1D6CWSQMwTlrbgwv1gEcsTA373mLeC4dfEQL6Wa.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+button{
+    color: aliceblue;
+    font-size: 30px;
+margin-left: 40px; ;
+border-radius: 20px; 
+background:  linear-gradient(rgb(69, 192, 214), black);
+ width: 60px;
+ height: 40px;
+    
+}
+.if{
+    margin: 10px 30px;
+background-image: url(ifon.png);
+background-position: center;
+background-size:cover ;  
+height: 600px;
+    width: 700px;
+    border: px black solid;
+    transform: scale(0.5);
+    
+    
+
+}
+iframe{
+    margin-left:25PX;
+    margin-top: 35px;
+    width: 620px;
+  height: 350PX;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(194, 182, 182),black);
+    height: 1000px;
+    background-position:center;
+    border: 2px rgb(0, 0, 0) solid;
+}
+p{
+    white-space: pre;
+}
+.aw{
+    display: flex;
+    justify-content: center;
+}
+li ,a{
+
+    display: inline-block;
+    margin: 10px;
+   text-decoration: none;
+}
+a{
+  
+  border-radius: 20px;
+  font-size: 30px;
+  color: black;
+  font-family: cursive;
+display: flex;
+
+}
+a:hover{
+  background: rgb(0, 0, 0);
+  color: white;  
+}
+img:hover{
+    transform: scale(1.4);
+}
+
+ 
+input { 
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+     width: 470px;
+     height: 25px;
+     border:1px rgb(134, 121, 121) solid ;
+     border-radius: 20px;
+}
+::placeholder{
+    color: rgb(25, 48, 32);
+}
+
+
+.fa{
+    width: 50px;
+}
+button {
+      background: rgb(0, 0, 0);
+     color: white;
+     
+     padding: 10px;
+     border:1px orangered solid;
+     border-radius: 30px;
+}
+button:hover{
+    background: orangered;
+    color: rgb(65, 16, 16);
+}
+
+.qq{
+    height: 100px;
+}
+.p1{
+    justify-content:center;
+    margin:0 0 3% 30%;
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      height: 30px;
+      width: 30px;
+      animation-name: moha;
+      animation-duration: 5s;
+      animation-delay:1s;
+      animation-iteration-count: 1;
+      
+    }
+@keyframes moha{
+    0%{
+     color: red;
+     padding: 40px;
+     border-radius: 100px;
+     margin: 100px;
+   
+     background: gold;
+    }
+    25%{
+  color: red;
+    
+    }
+    50%{
+        color:black;
+        background: red;
+        padding: 0;
+       
+     
+    }
+
+
+}
+.an1 ,.an2 ,.an3{
+    margin-left: 30%;
+ height: 50px;
+    width: 80px;
+  background-image:url(fa.png) ;
+    animation-name: aoglan;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count:1;  ///infinite
+    
+    animation-direction: alternate;
+}
+
+
+input:invalid{
+background: rgba(255, 0, 0, 0.445);
+
+}
+input:valid{
+    background: rgba(0, 128, 0, 0.267);
+}
+.an1:hover:hover{
+    animation-play-state: paused;
+}
+.an2:hover{
+    animation-play-state: paused;
+}
+.an3:hover{
+    animation-play-state: paused;
+}
+@keyframes aoglan{
+    25%{
+
+translate: 0 0;
+    }
+    25%{
+        
+        translate: 0 500px;
+      
+       rotate: 90deg;
+
+    }
+   
+  50%{
+    translate:400px 500px;
+   
+    rotate: 180deg;
+  }
+  75%{
+    translate: 400px 0;
+   
+    rotate: 270deg;
+  }
+  80%{
+    translate: 0 0;
+   
+    rotate: 360deg;
+  }
+} 
